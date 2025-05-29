@@ -1,29 +1,29 @@
-# Full-Stack-Web-Development-Bootcamp
+# Full-Stack Web Development Bootcamp
 
-Dies ist mein persönliches Projekt-Repository zum [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=24T7MT260525G2) von Dr. Angela Yu auf Udemy.
+This is my personal project repository for [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=24T7MT260525G2) by Dr. Angela Yu on Udemy.
 
-## 📁 Inhalt
+## 📁 Contents
 
-Dieses Repository begleitet mich durch die verschiedenen Kapitel und Übungen des Kurses. Es enthält sowohl kleinere Übungsdateien als auch umfangreichere Projekte.
+This repository accompanies me through the various chapters and exercises of the course. It includes both smaller practice files and more extensive projects.
 
-### 🔧 Code-Struktur
+### 🔧 Code Structure
 
-- Der **eigene Code** befindet sich in der Regel in den jeweiligen **`code.html`**-Dateien.
-- Jede `code.html`-Datei gehört zu einer bestimmten Übung oder Lektion und enthält den zugehörigen HTML-, CSS- und JavaScript-Code.
-- Weitere Dateien wie CSS-Stylesheets, Bilder oder JavaScript-Dateien können je nach Aufgabe zusätzlich vorhanden sein.
+- **My own code** is typically located in the respective **`code.html`** files.
+- Each `code.html` file corresponds to a specific exercise or lesson and contains the related HTML, CSS, and JavaScript code.
+- Additional files like CSS stylesheets, images, or JavaScript files may be included depending on the task.
 
-## 💻 Technologien im Kurs
+## 💻 Technologies Covered
 
-Der Kurs deckt eine breite Palette an modernen Webentwicklungstechnologien und -tools ab:
+The course covers a wide range of modern web development technologies and tools:
 
 ### 🌐 Frontend
 
 - **HTML5**
-- **CSS3** (inkl. CSS Properties, Flexbox, Grid, Animationen)
+- **CSS3** (including CSS Properties, Flexbox, Grid, Animations)
 - **Responsive Design**
 - **Bootstrap**
 - **JavaScript (ES6+)**
-- **DOM-Manipulation**
+- **DOM Manipulation**
 - **jQuery**
 - **EJS (Embedded JavaScript Templates)**
 - **React.js**
@@ -33,20 +33,20 @@ Der Kurs deckt eine breite Palette an modernen Webentwicklungstechnologien und -
 - **Node.js**
 - **Express.js**
 - **RESTful APIs**
-- **EJS für serverseitiges Rendering**
+- **EJS for server-side rendering**
 
-### 🗃 Datenbanken
+### 🗃 Databases
 
 - **MongoDB**
 - **Mongoose (ODM)**
 - **SQL**
 - **PostgreSQL**
 
-### 🔐 Authentifizierung & Sicherheit
+### 🔐 Authentication & Security
 
-- Benutzeranmeldung und -registrierung
-- Sessions und Cookies
-- **Hashing und Verschlüsselung**
+- User login and registration
+- Sessions and cookies
+- **Hashing and encryption**
 - **OAuth 2.0**
 - **Passport.js**
 
@@ -54,31 +54,31 @@ Der Kurs deckt eine breite Palette an modernen Webentwicklungstechnologien und -
 
 - **Git & GitHub**
 - **Unix Command Line**
-- **Deployment** (z. B. über Heroku oder andere Plattformen)
+- **Deployment** (e.g., via Heroku or other platforms)
 
-### 🔗 APIs & externe Dienste
+### 🔗 APIs & External Services
 
-- Eigene APIs erstellen
-- **Zugriff auf öffentliche APIs**
-- JSON, Fetch, und API-Integration
+- Creating your own APIs
+- **Accessing public APIs**
+- JSON, Fetch, and API integration
 
-### 🧪 Projekte & Capstones
+### 🧪 Projects & Capstones
 
-- Dicee Game
-- Simon Game
-- ToDo-Listen-App
-- Blog-App
-- Buchnotizen-App
-- DApp-Projekte mit Blockchain-Integration
+- Dicee Game  
+- Simon Game  
+- To-Do List App  
+- Blog App  
+- Book Notes App  
+- DApp projects with blockchain integration
 
 ### 🌐 Web3 & Blockchain (Bonus)
 
 - **Smart Contracts (Solidity)**
-- **Dezentrale Apps (DApps)**
+- **Decentralized Apps (DApps)**
 - **ICP Blockchain Deployment**
-- **Erstellen eigener Tokens & NFTs**
-- **OpenSea-Integration**
+- **Creating your own tokens & NFTs**
+- **OpenSea integration**
 
-## 🎯 Ziel
+## 🎯 Goal
 
-Ziel dieses Repositories ist es, die Inhalte des Kurses nachvollziehbar zu dokumentieren und meine Fortschritte im Bereich Webentwicklung festzuhalten.
+The goal of this repository is to clearly document the course content and track my progress in web development.
