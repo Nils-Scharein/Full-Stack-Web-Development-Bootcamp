@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+      /* row-start:    1
+         column-start: 1
+         row-end:      3
+         column-end:   2
+         grid-area: 1 / 1 / 3 / 2;
+         */
+
+      .flexbox-window {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .grid {
+        width: 748px;
+        gap: 9px;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 20px;
+      }
+
+      .white {
+        background-color: #f0f1ec;
+      }
+
+      #rectangle-red {
+        background-color: #e72f24;
+        grid-area: 1 / 1 / 2 / 2;
+      }
+
+      #rectangle-white1 {
+        background-color: #f0f1ec;
+        grid-area: 1 / 2 / 2 / 5;
+      }
+
+      #rectangle-white2 {
+        background-color: #f0f1ec;
+        grid-area: 2 / 1 / 4 / 2;
+      }
+
+      #rectangle-blue {
+        background-color: #004592;
+        border-bottom: solid black 10px;
+        grid-area: 2 / 4 / 3 / 5;
+      }
+
+      #rectangle-white3 {
+        background-color: #f0f1ec;
+        grid-area: 2 / 2 / 4 / 4;
+      }
+
+      #rectangle-white4 {
+        background-color: #f0f1ec;
+        grid-area: 3 / 4 / 5 / 5;
+      }
+
+      #rectangle-white5 {
+        background-color: #f0f1ec;
+        grid-area: 4 / 1 / 5 / 2;
+      }
+
+      #rectangle-yellow {
+        background-color: #f9d01e;
+        grid-area: 4 / 2 / 5 / 3;
+      }
+
+      #rectangle-black {
+        background-color: #232629;
+        grid-area: 4 / 3 / 5 / 4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="flexbox-window">
+      <div class="grid">
+        <div id="rectangle-red"></div>
+        <div class="white" id="rectangle-white1"></div>
+        <div class="white" id="rectangle-white2"></div>
+        <div class="white" id="rectangle-white3"></div>
+        <div id="rectangle-blue"></div>
+        <div class="white" id="rectangle-white4"></div>
+        <div id="rectangle-white5"></div>
+        <div id="rectangle-yellow"></div>
+        <div id="rectangle-black"></div>
+      </div>
+    </div>
+  </body>
+</html>
