@@ -50,12 +50,6 @@ The course covers a wide range of modern web development technologies and tools:
 - **OAuth 2.0**
 - **Passport.js**
 
-### ⚙️ DevOps / Tools
-
-- **Git & GitHub**
-- **Unix Command Line**
-- **Deployment** (e.g., via Heroku or other platforms)
-
 ### 🔗 APIs & External Services
 
 - Creating your own APIs
@@ -69,15 +63,6 @@ The course covers a wide range of modern web development technologies and tools:
 - To-Do List App  
 - Blog App  
 - Book Notes App  
-- DApp projects with blockchain integration
-
-### 🌐 Web3 & Blockchain (Bonus)
-
-- **Smart Contracts (Solidity)**
-- **Decentralized Apps (DApps)**
-- **ICP Blockchain Deployment**
-- **Creating your own tokens & NFTs**
-- **OpenSea integration**
 
 ## 🎯 Goal
 
