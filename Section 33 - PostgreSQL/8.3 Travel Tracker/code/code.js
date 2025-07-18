@@ -46,24 +46,17 @@ app.get("/", async (req, res) => {
   });
 });
 
-function capitalizeFirstLetter(val) {
-  return String(val).charAt(0).toUpperCase() + String(val).slice(1);
-}
-
 app.post("/add", async (req, res) => {
   try {
-    let newVisitedCountrie = req.body.country;
-    if (!(req.body.country.length === 2)) {
-      newVisitedCountrie = capitalizeFirstLetter(req.body.country);
-    }
+    let newVisitedCountrie = req.body.country.toUpperCase();
 
     const checkIfExist = await client.query(
-      `SELECT capital, country FROM capitals WHERE capital = $1::text OR country = $1::text`,
+      `SELECT capital, country FROM capitals WHERE UPPER(capital) = $1::text OR UPPER(country) = $1::text`,
       [newVisitedCountrie]
     );
 
     if (checkIfExist.rowCount === 0) {
-      const countries = getVisitedCountries();
+      const countries = await getVisitedCountries();
       return res.render("code", {
         countries: countries,
         total: countries.length,
@@ -74,12 +67,12 @@ app.post("/add", async (req, res) => {
     const { capital, country } = checkIfExist.rows[0] || {};
 
     const checkIfAlreadyVisited = await client.query(
-      `SELECT country_code FROM visited_countries WHERE country_code = $1::text`,
+      `SELECT country_code FROM visited_countries WHERE UPPER(country_code) = $1::text`,
       [country]
     );
 
     if (checkIfAlreadyVisited.rowCount > 0) {
-      const countries = getVisitedCountries();
+      const countries = await getVisitedCountries();
       return res.render("code", {
         countries: countries,
         total: countries.length,
@@ -96,13 +89,24 @@ app.post("/add", async (req, res) => {
   } catch (error) {
     console.error("Error while processing /add request:", error);
 
-    const countries = getVisitedCountries();
+    const countries = await getVisitedCountries();
     res.status(500).render("code", {
       countries: countries,
       total: countries.length,
       error: "Internal Server Error",
     });
   }
+});
+
+app.post("/delete", async (req, res) => {
+  let visitedCountrieToDelete = req.body.country.toUpperCase();
+
+  const checkIfAlreadyVisited = await client.query(
+    `DELETE FROM visited_countries WHERE UPPER(country_code) = $1::text`,
+    [visitedCountrieToDelete]
+  );
+
+  res.redirect("/");
 });
 
 app.listen(port, () => {
