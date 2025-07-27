@@ -5,6 +5,7 @@ This is my personal project repository for [The Complete 2024 Web Development Bo
 ## 📁 Contents
 
 This repository accompanies me through the various chapters and exercises of the course. It includes both smaller practice files and more extensive projects.
+I skipped some sections because I had already acquired the knowledge at university or through other experiences.
 
 ### 🔧 Code Structure
 
@@ -42,27 +43,11 @@ The course covers a wide range of modern web development technologies and tools:
 - **SQL**
 - **PostgreSQL**
 
-### 🔐 Authentication & Security
-
-- User login and registration
-- Sessions and cookies
-- **Hashing and encryption**
-- **OAuth 2.0**
-- **Passport.js**
-
 ### 🔗 APIs & External Services
 
 - Creating your own APIs
-- **Accessing public APIs**
+- Accessing public APIs
 - JSON, Fetch, and API integration
-
-### 🧪 Projects & Capstones
-
-- Dicee Game  
-- Simon Game  
-- To-Do List App  
-- Blog App  
-- Book Notes App  
 
 ## 🎯 Goal
 
