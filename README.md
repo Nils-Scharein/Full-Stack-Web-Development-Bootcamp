@@ -1,18 +1,18 @@
-# Full-Stack Web Development Bootcamp
+# Full-Stack Web Development Bootcamp (Completed)
 
-This is my personal project repository for [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=24T7MT260525G2) by Dr. Angela Yu on Udemy.
+This repository contains my completed projects and exercises from [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=24T7MT260525G2) by Dr. Angela Yu on Udemy.
 
 ## 📁 Contents
 
-This repository accompanies me through the various chapters and exercises of the course. It includes both smaller practice files and more extensive projects.
-I skipped some sections because I had already acquired the knowledge at university or through other experiences.
+This repository documents the sections and exercises I found most relevant to my learning journey.  
+I have successfully completed the parts of the course that were valuable to me and skipped a few sections where I already had prior knowledge from university or professional experience.
 
 ---
 
 ### **⚠️ Note on Section 36 – React**
 
-The React content in Section 36 does not come from Dr. Angela Yu's course, because I wanted to use a newer version of React.
-Instead, I am following the course **[Modern React From The Beginning](https://www.udemy.com/course/modern-react-from-the-beginning/?couponCode=KEEPLEARNING)** by **Brad Traversy & Will Adams**.
+The React content in Section 36 does not come from Dr. Angela Yu's course, because I wanted to learn and use a newer version of React.  
+Instead, I followed the course **[Modern React From The Beginning](https://www.udemy.com/course/modern-react-from-the-beginning/?couponCode=KEEPLEARNING)** by **Brad Traversy & Will Adams**.
 
 All React-related projects are maintained in a separate repository:  
 👉 [My React Projects Repository](https://github.com/Nils-Scharein/React-Course)
@@ -29,7 +29,7 @@ All React-related projects are maintained in a separate repository:
 
 ## 💻 Technologies Covered
 
-The course covers a wide range of modern web development technologies and tools:
+Throughout the course, I worked on a wide range of modern web development technologies and tools:
 
 ### 🌐 Frontend
 - **HTML5**
@@ -62,4 +62,5 @@ The course covers a wide range of modern web development technologies and tools:
 ---
 
 ## 🎯 Goal
-The goal of this repository is to clearly document the course content and track my progress in web development.
+The goal of this repository was to document my learning journey through the course.  
+I have completed all the sections and topics that were **relevant to my current skill development** and now have a strong foundation in full-stack web development.
